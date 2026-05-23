@@ -1,5 +1,8 @@
 name: Automated Preprocessing Pipeline
 
+permissions:
+  contents: write
+
 on:
   push:
     branches: [main]
