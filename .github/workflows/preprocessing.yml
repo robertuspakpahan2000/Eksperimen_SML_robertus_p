@@ -5,7 +5,7 @@ on:
     branches: [main]
     paths:
       - 'heart_raw.csv'
-      - 'preprocessing/automate_NamaSiswa.py'
+      - 'preprocessing/automate_robertus_p.py'
   workflow_dispatch:  # Manual trigger
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
 
       - name: Run Preprocessing Script
         run: |
-          python preprocessing/automate_NamaSiswa.py \
+          python preprocessing/automate_robertus_p.py \
             --input heart_raw.csv \
             --output preprocessing/heart_preprocessing
 
