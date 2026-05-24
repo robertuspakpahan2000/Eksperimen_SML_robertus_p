@@ -1,1 +1,0 @@
-# Eksperimen_SML_robertus_p
